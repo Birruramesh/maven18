@@ -1,4 +1,4 @@
-@Library(mylibrary)_
+@Library('mylibrary')_
 node('built-in')
 {
     stage('ContinuousDownload_master')
