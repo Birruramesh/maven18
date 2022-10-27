@@ -19,6 +19,6 @@ node('built-in')
     }
     stage('ContinuousDelivery_master')
     {
-        cicd.newdeploy("${env.WORKSPACE}"),"172.31.18.153","prodapp".war')
+        cicd.newDeploy("${env.WORKSPACE}"),"172.31.18.153","prodapp".war')
     }
 }
